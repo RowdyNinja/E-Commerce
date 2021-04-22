@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 8rem;
+}
+
+
+/* Offers section */
+
+.carousel-slide {
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.carousel-inner .carousel-item .jumbotron {
+    text-align: center;
+    background-color: #fc2b2b;
+    margin: 0.6rem;
+    height: 20rem;
+    border-radius: 2rem;
+    padding: 5.5rem;
+}
+
+
+/* most popular section */
+
+.mp-items {
+    margin: 1rem;
+    border-top: 1px solid #fc2b2b;
+    padding: 1rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+}
+
+.card {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.card>img {
+    transform: scale(0.7, 0.7);
+}

@@ -20,12 +20,115 @@
 
     <script>
         $(function() {
-            $("#nav-placeholder").load("./navbar/navbar.html");
+            $("#nav-placeholder").load("navbar.html");
         });
     </script>
     <!--end of Navigation bar-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <!-- Offers section -->
+    <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="jumbotron jumbotron-fluid justify-content-center">
+                    <div class="container">
+                        <h1 class="display-4">Offer 1</h1>
+                        <p class="lead">This is a great offer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4">Offer 2</h1>
+                        <p class="lead">This is a great offer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4">Offer 3</h1>
+                        <p class="lead">This is a great offer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- End of offers section -->
+
+    <div class="mp-items container">
+        <h3>Most Popular Items</h3>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/smartphone-mp.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Price starting from Rs.XXXX</p>
+                        <a class="stretched-link" href=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/laptop-mp.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Price starting from Rs.XXXX</p>
+                        <a class="stretched-link" href=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/camera-mp.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Price starting from Rs.XXXX</p>
+                        <a class="stretched-link" href=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/chair-mp.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Price starting from Rs.XXXX</p>
+                        <a class="stretched-link" href=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/shirt-mp.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Price starting from Rs.XXXX</p>
+                        <a class="stretched-link" href=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/book-mp.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Price starting from Rs.XXXX</p>
+                        <a class="stretched-link" href=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 
 </html>
