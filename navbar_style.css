@@ -1,0 +1,65 @@
+body {
+    margin: auto 0;
+    padding: 5rem;
+}
+
+
+/* nav bar */
+
+.first-nav {
+    margin: 0;
+    width: 100%;
+    background-color: #1a1a1a;
+}
+
+.navbar-brand>img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 3rem;
+}
+
+.search-box {
+    margin: 0.5rem;
+    justify-content: center;
+}
+
+.search-bar {
+    width: 60%;
+    margin-right: 2rem;
+    margin: 0.2rem;
+    margin-right: 1rem;
+}
+
+.search-bar>button {
+    background-color: #fc2b2b;
+    color: black
+}
+
+.cart {
+    color: black;
+    background-color: #ffffff;
+    margin: 0.2rem;
+    margin-left: 1rem;
+}
+
+.nav-item>a {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.first-nav .nav-bar-toggler .nav-bar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.second-nav {
+    background-color: #ffffff;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    border-bottom: 0.15rem solid #fc2b2b;
+}
+
+.navbar .navbar-collapse .nav-item .nav-link:hover {
+    color: #fc2b2b;
+}
