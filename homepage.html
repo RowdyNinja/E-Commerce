@@ -69,15 +69,41 @@
     </div>
     <!-- End of offers section -->
 
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Product</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-img"></div>
+                    <h6>Product details:</h6>
+                    <div class="modal-details"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of modal -->
+
+    <!-- Most popular items -->
+
     <div class="mp-items container">
         <h3>Most Popular Items</h3>
         <div class="row">
             <div class="col">
-                <div class="card" style="width: 18rem;">
+                <div class="card" id="card-1" style="width: 18rem;">
                     <img src="./images/smartphone-mp.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Price starting from Rs.XXXX</p>
-                        <a class="stretched-link" href=""></a>
+                        <h4>Smart Phone</h4>
+                        <p class="card-text">$ 100</p>
+                        <div class="product-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                        <a class="stretched-link" href="#"></a>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -85,7 +111,10 @@
                 <div class="card" style="width: 18rem;">
                     <img src="./images/laptop-mp.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Price starting from Rs.XXXX</p>
+                        <h4>Laptop</h4>
+                        <p class="card-text">$ 100</p>
+                        <div class="product-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                         <a class="stretched-link" href=""></a>
                     </div>
                 </div>
@@ -94,7 +123,10 @@
                 <div class="card" style="width: 18rem;">
                     <img src="./images/camera-mp.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Price starting from Rs.XXXX</p>
+                        <h4>Camera</h4>
+                        <p class="card-text">$ 100</p>
+                        <div class="product-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                         <a class="stretched-link" href=""></a>
                     </div>
                 </div>
@@ -103,7 +135,10 @@
                 <div class="card" style="width: 18rem;">
                     <img src="./images/chair-mp.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Price starting from Rs.XXXX</p>
+                        <h4>Chair</h4>
+                        <p class="card-text">$ 100</p>
+                        <div class="product-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                         <a class="stretched-link" href=""></a>
                     </div>
                 </div>
@@ -112,7 +147,10 @@
                 <div class="card" style="width: 18rem;">
                     <img src="./images/shirt-mp.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Price starting from Rs.XXXX</p>
+                        <h4>Shirt</h4>
+                        <p class="card-text">$ 100</p>
+                        <div class="product-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                         <a class="stretched-link" href=""></a>
                     </div>
                 </div>
@@ -121,12 +159,35 @@
                 <div class="card" style="width: 18rem;">
                     <img src="./images/book-mp.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Price starting from Rs.XXXX</p>
+                        <h4>Book</h4>
+                        <p class="card-text">$ 100</p>
+                        <div class="product-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                         <a class="stretched-link" href=""></a>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- End of mp items -->
+
+        <script>
+            // function to dynamically change the contents of the modal
+            $(function() {
+                $('.stretched-link').click(function(e) {
+                    e.preventDefault();
+                    var image = $(this).parent().parent().find('img').clone();
+                    var title = $(this).parent().find('h4').clone();
+                    var details = $(this).parent().find('.product-details').text();
+                    var mymodal = $('#myModal');
+                    mymodal.find('.modal-header').html(title)
+                    mymodal.find('.modal-img').html(image);
+                    mymodal.find('.modal-details').html(details);
+                    mymodal.modal('show');
+
+                });
+            })
+        </script>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
