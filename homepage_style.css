@@ -48,3 +48,8 @@ body {
 .product-details {
     display: none;
 }
+
+.card .btn {
+    z-index: 3;
+    position: relative;
+}
